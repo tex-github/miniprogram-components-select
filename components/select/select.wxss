@@ -1,0 +1,63 @@
+.view-body {
+  display: flex;
+  align-items: center;
+  padding: 2% 0%;
+  /* border-bottom: 1px solid #eee; */
+}
+
+.item-key {
+  font-size: 31rpx;
+  color: #666;
+  width: 25%;
+}
+
+.view-select-container {
+  width: 70%;
+}
+
+.select-value {
+  width: 100%;
+  border: 1px solid #eee;
+  font-size: 31rpx;
+  padding: 18rpx 0;
+  position: relative;
+}
+
+.img-arrow {
+  width: 28rpx;
+  height: 26rpx;
+  padding-right: 10rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5rpx;
+}
+
+.view-options {
+  display: flex;
+  width: 70%;
+  position: absolute;
+  border: 1px solid #eee;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-item {
+  font-size: 28rpx;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #eee;
+  line-height: 70rpx;
+  height: 70rpx;
+}
+
+input {
+  padding-left: 3%;
+  font-size: 30rpx;
+}

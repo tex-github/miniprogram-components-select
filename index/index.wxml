@@ -1,0 +1,1 @@
+<Select title="类别" options="{{optionArry}}" isRequired="true" bind:mySelectItem='onSelectItem' name='formkey' showkey='name' />
