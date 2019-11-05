@@ -1,4 +1,4 @@
-<view class="view-body">
+<view class="view-item">
   <text class='item-key'>{{title}}<text style="color:red" wx:if="{{isRequired}}">*</text></text>
   <view class="view-select-container">
     <view class='select-value' bindtap="selectToggle">
