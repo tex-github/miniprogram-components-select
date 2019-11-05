@@ -5,8 +5,8 @@
       <input value="{{value}}" name='{{name}}' disabled="{{true}}" />
       <image class='img-arrow' style="width:40rpx;height:40rpx" src='/images/drop_down.png' />
     </view>
-    <view class="view-options" wx:if="{{showOptions}}">
+    <cover-view class="view-options" wx:if="{{showOptions}}">
       <cover-view class='option-item' wx:for="{{options}}" data-index="{{index}}" bindtap="selectItem">{{item[showkey]}}</cover-view>
-    </view>
+    </cover-view>
   </view>
 </view>
