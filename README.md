@@ -1,6 +1,6 @@
 # miniprogram-components-select
 **效果图**<br>
-![效果图](https://github.com/tex-github/miniprogram-components-select/2dc2e7c34d617c85a1f4666fe9b95b2a_0_wx_fmt=png.png)
+![效果图](https://github.com/tex-github/miniprogram-components-select/blob/下拉组件Select/2dc2e7c34d617c85a1f4666fe9b95b2a_0_wx_fmt%3Dpng.png)
 
 在你页面中的json中添加引用，路径根据你的实际工程目录来写。<br>
 ```
