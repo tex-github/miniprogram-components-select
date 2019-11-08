@@ -8,12 +8,12 @@
 .item-key {
   font-size: 31rpx;
   color: #666;
-  text-align: center;
   width: 25%;
+  text-align: center;
 }
 
 .view-select-container {
-  width: 70%;
+  width: 75%;
   height: 80rpx;
   position: relative;
 }
@@ -37,26 +37,34 @@
 }
 
 .view-options {
+  background-color: #fff;
   display: flex;
   width: 100%;
+  z-index: 3;
   position: absolute;
-  box-sizing: border-box;
-  background-color: #fff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.view-out {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
 .option-item {
   font-size: 28rpx;
-  background: #fff;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -1px;
   text-align: center;
   box-sizing: border-box;
-  margin-top: -1px;
   border: 1px solid #eee;
   line-height: 80rpx;
   height: 80rpx;

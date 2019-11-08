@@ -43,6 +43,11 @@ Component({
         showOptions: !this.data.showOptions
       })
     },
+    hideSelect: function(e) {
+      this.setData({
+        showOptions: false
+      })
+    },
     selectItem: function(e) {
       var optionList = this.properties.options //外部传进来的数组对象
       var nowIdx = e.currentTarget.dataset.index //当前点击的索引
